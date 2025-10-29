@@ -5,9 +5,6 @@ function Home() {
   return (
     <>
       <Header />
-      <main>
-        <h1>Welcome to the Bank API</h1>
-      </main>
     </>
   );
 }

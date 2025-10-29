@@ -1,24 +1,26 @@
-.main-nav {
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 5px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.main-nav-logo {
+.nav-logo {
   display: flex;
   align-items: center;
   text-decoration: none;
 }
 
-.main-nav-logo-image {
+.nav-logo-image {
   display: block;
   max-width: 100%;
   width: 200px;
   height: auto;
 }
 
-.main-nav-item {
+.nav-item {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -28,6 +30,7 @@
   color: #2c3e50;
 }
 
-.main-nav-item:hover {
+.nav-item:hover {
   text-decoration: underline;
+  color: #2c3e50;
 }
