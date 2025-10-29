@@ -1,10 +1,10 @@
-import { Routes, Routes } from "react-router-dom";
-import Homepage from "./pages/Homepage.css";
+import { Routes, Route } from "react-router-dom";
+import Home from "../pages/Home.jsx";
 
 function Router() {
   return (
     <Routes>
-      <Route path="/" element={<Homepage />} />
+      <Route path="/" element={<Home />} />
     </Routes>
   );
 }
