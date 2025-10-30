@@ -1,4 +1,5 @@
 import "../styles/Header.css";
+import { Link } from "react-router-dom";
 import logo from "../assets/img/argentBankLogo.png";
 import icon from "../assets/img/circle-user-solid-full.svg";
 
@@ -11,9 +12,9 @@ function Header() {
         </div>
         <div className="nav-sign-in">
           <img className="nav-user-icon" src={icon} alt="User Icon" />
-          <a className="nav-link" href="./sign-in.html">
+          <Link className="nav-link" to="./sign-in.html">
             <h2>Sign In</h2>
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
