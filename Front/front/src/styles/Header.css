@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
   width: 100%;
   margin: 0 auto;
 }
@@ -24,8 +23,7 @@
 
 .nav-logo-image {
   display: block;
-  max-width: 100%;
-  width: 200px;
+  width: 290px;
   height: auto;
 }
 
