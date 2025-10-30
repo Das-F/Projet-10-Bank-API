@@ -1,6 +1,7 @@
 import "../styles/home.css";
 import Header from "../components/Header";
 import backgroundImage from "../assets/img/bank-tree.jpeg";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
           <p className="text">Open a savings account with Argent Bank today!</p>
         </section>
       </div>
+      <Footer />
     </>
   );
 }
