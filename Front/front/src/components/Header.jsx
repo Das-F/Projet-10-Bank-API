@@ -9,10 +9,10 @@ function Header() {
         <div className="nav-logo">
           <img className="nav-logo-image" src={logo} alt="Argent Bank Logo" />
         </div>
-        <div>
-          <a className="nav-item" href="./sign-in.html">
-            <img className="nav-user-icon" src={icon} alt="User Icon" />
-            Sign In
+        <div className="nav-sign-in">
+          <img className="nav-user-icon" src={icon} alt="User Icon" />
+          <a className="nav-link" href="./sign-in.html">
+            <h2>Sign In</h2>
           </a>
         </div>
       </div>
