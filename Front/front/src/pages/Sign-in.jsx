@@ -1,13 +1,13 @@
 import "../styles/Sign-in.css";
 import { Link } from "react-router-dom";
 import icon from "../assets/img/circle-user-solid-full.svg";
-import Header from "../components/Header";
+import HeaderSignIn from "../components/Header-sign-in";
 import Footer from "../components/Footer";
 
 function SignIn() {
   return (
     <>
-      <Header />
+      <HeaderSignIn />
       <div className="sign-in-background">
         <section className="sign-in-content">
           <div className="sign-in-box">

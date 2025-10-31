@@ -1,9 +1,9 @@
-import "../styles/Header.css";
+import "../styles/Header-sign-in.css";
 import { Link } from "react-router-dom";
 import logo from "../assets/img/argentBankLogo.png";
 import icon from "../assets/img/circle-user-solid-full.svg";
 
-function Header() {
+function HeaderSignIn() {
   return (
     <nav className="nav">
       <div className="nav-container">
@@ -20,4 +20,4 @@ function Header() {
     </nav>
   );
 }
-export default Header;
+export default HeaderSignIn;
