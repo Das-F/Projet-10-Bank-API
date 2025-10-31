@@ -13,26 +13,26 @@ function Home() {
       <div className="hero">
         <img src={backgroundImage} className="banking-background" alt="Banking background" />
         <section className="hero-content">
-          <p className="subtitle">No fees.</p>
-          <p className="subtitle">No minimum deposit.</p>
-          <p className="subtitle">High interest rates.</p>
-          <p className="text">Open a savings account with Argent Bank today!</p>
+          <h2 className="subtitle">No fees.</h2>
+          <h2 className="subtitle">No minimum deposit.</h2>
+          <h2 className="subtitle">High interest rates.</h2>
+          <h2 className="text">Open a savings account with Argent Bank today!</h2>
         </section>
       </div>
       <section class="features">
         <div className="feature-item">
           <img src={chatIcon} alt="Chat Icon" className="feature-icon" />
-          <h3 className="feature-item-title">You are our #1 priority</h3>
+          <h4 className="feature-item-title">You are our #1 priority</h4>
           <p>Need to talk to a representative? You can get in touch through our 24/7 chat or through a phone call in less than 5 minutes.</p>
         </div>
         <div className="feature-item">
           <img src={moneyIcon} alt="Money Icon" className="feature-icon" />
-          <h3 className="feature-item-title">More savings means higher rates</h3>
+          <h4 className="feature-item-title">More savings means higher rates</h4>
           <p>The more you save with us, the higher your interest rate will be!</p>
         </div>
         <div className="feature-item">
           <img src={securityIcon} alt="Security Icon" className="feature-icon" />
-          <h3 className="feature-item-title">Security you can trust</h3>
+          <h4 className="feature-item-title">Security you can trust</h4>
           <p>We use top of the line encryption to make sure your data and money is always safe.</p>
         </div>
       </section>

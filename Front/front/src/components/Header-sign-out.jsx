@@ -13,10 +13,10 @@ function HeaderSignOut() {
         </div>
         <div className="nav-sign-out">
           <img className="nav-icon" src={icon} alt="User Icon" />
-          <h2 className="nav-username">Username</h2>
+          <h3 className="nav-username">Username</h3>
           <img className="nav-icon" src={logoutIcon} alt="Logout Icon" />
           <Link className="nav-link" to="./sign-in.html">
-            <h2>Sign Out</h2>
+            <h3>Sign Out</h3>
           </Link>
         </div>
       </div>
