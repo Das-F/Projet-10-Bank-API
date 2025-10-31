@@ -2,6 +2,7 @@ import "../styles/User.css";
 import { Link } from "react-router-dom";
 import HeaderSignOut from "../components/Header-sign-out";
 import Footer from "../components/Footer";
+import EditName from "../components/Edit-name";
 
 const username = "User";
 
@@ -19,6 +20,7 @@ function User() {
         </div>
         <div className="edit-name-container">
           <button className="edit-button">Edit Name</button>
+          <EditName />
         </div>
         <section className="account">
           <div className="account-content-wrapper">
