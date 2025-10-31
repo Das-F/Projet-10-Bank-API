@@ -15,18 +15,23 @@ function SignIn() {
             <h1>Sign In</h1>
             <form>
               <div className="input-wrapper">
-                <label htmlFor="username">Username</label>
+                <label htmlFor="username" className="form-text">
+                  Username
+                </label>
                 <input type="text" id="username" />
               </div>
               <div className="input-wrapper">
-                <label htmlFor="password">Password</label>
+                <label htmlFor="password" className="form-text">
+                  Password
+                </label>
                 <input type="password" id="password" />
               </div>
               <div className="input-remember">
                 <input type="checkbox" id="remember-me" />
-                <label htmlFor="remember-me">Remember me</label>
+                <label htmlFor="remember-me">
+                  <h4>Remember me</h4>
+                </label>
               </div>
-              {/* PLACEHOLDER DUE TO STATIC SITE */}
               <Link to="/sign-in.html/user.html" className="sign-in-button">
                 Sign In
               </Link>

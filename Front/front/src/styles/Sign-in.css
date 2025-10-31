@@ -10,9 +10,6 @@
 .sign-in-box {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding-bottom: 2rem;
-  height: 100%;
 }
 
 .sign-in-box h1 {
@@ -24,23 +21,36 @@
 
 .sign-in-button {
   display: block;
-  width: 100%;
+  width: 95%;
+  height: 40px;
   padding: 8px;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: bold;
-  margin-top: 1rem;
+  margin-top: 2rem;
   border-color: #00bc77;
   background-color: #00bc77;
   color: #ffffff;
   text-decoration: underline;
 }
 
+.sign-in-button:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
 .sign-in-content {
   box-sizing: border-box;
   background-color: white;
   width: 400px;
+  height: 520px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2.5rem;
+}
+.nav-user-icon {
+  display: block;
+  margin: 0 auto;
+  width: 35px;
+  height: 35px;
 }
 
 .input-remember {
@@ -65,4 +75,15 @@
 .input-wrapper input {
   padding: 5px;
   font-size: 1.2rem;
+}
+
+.form-text {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin: 0;
 }
