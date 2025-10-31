@@ -18,9 +18,7 @@ function User() {
           </h1>
         </div>
         <div className="edit-name-container">
-          <a className="edit-button" href="./edit-name.html">
-            Edit Name
-          </a>
+          <button className="edit-button">Edit Name</button>
         </div>
         <section className="account">
           <div className="account-content-wrapper">
